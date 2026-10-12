@@ -1,0 +1,78 @@
+body{display: flex;
+    justify-content: center;
+    background-color:#f0f2f5;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding-top: 20px;
+    margin: 0;
+}
+form{
+    background: black;
+    padding:  90px 18px 18px 18px;
+    border-radius: 35px;
+    width: 315px;
+    text-align: center;
+    height: auto;
+    
+    
+    
+}
+form input[name=display]{
+width: 100%;
+height: 60px;
+border: 0;
+outline: 0;
+font-size: 45px;
+text-align: right;
+margin-bottom: 20px;
+background-color: #333333;
+border-radius: 15px;
+
+
+}
+form input[type="button"]{
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255, 252, 252, 0.603);
+    background-color: #463f3f;
+    cursor: pointer;
+    
+}
+
+
+form input[name="display"]{
+    margin-bottom: 10px;
+
+}
+
+
+form input[value="0"]{
+    border-radius: 35px;
+    width: 130px;
+    height: 65px;
+}
+form input[value="/"]{
+    background-color:blue;
+}
+
+ 
+
+form input[value="*"]{
+    background-color: blue;
+}
+form input[value="-"]{
+    background-color:blue;
+}
+form input[value="+"]{
+    background-color:blue;
+}
+form input[value="="]{
+    background-color: blue;
+}
